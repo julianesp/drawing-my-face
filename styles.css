@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.circle {
+    position: relative;
+
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 900px;
+    border-bottom-left-radius: 900px;
+
+    background-color: rgb(255, 206, 166);
+    box-shadow: 0 10px 20px 0 #000;
+}
+
+.eye {
+    position: relative;
+    background-color: #fff;
+}
+
+.eye .iris {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid rgb(107, 74, 30);
+    background-color: rgb(107, 74, 30);
+
+    top: 20%;
+    right: 20%;
+
+    width: 20px;
+    height: 20px;
+
+}
+
+.eye-left {
+    position: absolute;
+    top: calc(100% - 200px);
+    left: 20px;
+    bottom: 0;
+    /* right: 20px; */
+    /* bottom: 0; */
+
+
+    border: 2px solid rgb(255, 255, 255);
+    height: 30px;
+    width: 50px;
+
+    border-top-left-radius: 150px;
+    border-top-right-radius: 180px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 10px;
+}
+
+.eye-right {
+    position: absolute;
+    top: calc(100% - 200px);
+    right: 20px;
+    bottom: 0;
+    /* right: 20px; */
+    /* bottom: 0; */
+
+
+    border: 2px solid rgb(255, 255, 255);
+    height: 30px;
+    width: 50px;
+
+    border-top-left-radius: 150px;
+    border-top-right-radius: 180px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 80px;
+}
