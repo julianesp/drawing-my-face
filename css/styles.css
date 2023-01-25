@@ -34,7 +34,7 @@ body {
     background-color: rgb(107, 74, 30);
 
     top: 20%;
-    right: 20%;
+    right: 25%;
 
     width: 20px;
     height: 20px;
@@ -125,27 +125,19 @@ body {
 }
 
 .mouth .up {
-    /* position: absolute; */
-
-    
-    
-    /* left: 25%; */
-    
     border: 2px solid rgb(233, 138, 126);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     
     height: 15px;
-    width: 100px;
+    width: 85px;
 
 }
 
 .mouth .down {
-    /* position: absolute; */
-
-    
-    
-    /* left: 25%; */
-    
     border: 2px solid rgb(233, 138, 126);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
     
     height: 15px;
     width: 80px;
